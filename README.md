@@ -42,7 +42,7 @@ L'aide de chaque script est disponible avec `Get-Help .\scripts\<script>.ps1 -Fu
 ## Ce que j'ai appris
 
 Ce labo m'a appris les bases de l'architecture d'AD DS, avant d'approfondir lors de ma formation à venir.
-Les scripts m'ont permis d'appréhender Powershell, dont l'ergonomie et la manipulation d'objet .Net m'ont agréablement surpris.
+Les scripts m'ont permis d'appréhender Powershell, dont l'ergonomie et la manipulation d'objets .Net m'ont agréablement surpris.
 
 - **Structure d'un annuaire** : lecture et construction de DN, différence entre CN, SamAccountName et UPN, rôle des OU (GPO, délégation) face aux groupes (droits d'accès).
 - **PowerShell** : manipulation d'objets, `-Identity` pour cibler un objet et `-Filter` pour chercher, erreurs terminantes et `try/catch` avec `-ErrorAction Stop`.
