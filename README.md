@@ -5,8 +5,8 @@ Labo personnel Active Directory pour pratiquer l'administration d'un domaine AD 
 ## Environnement
 
 - Domaine : `julien.local`
-- Contrôleur de domaine : <Windows Server 2022> sur <hyperviseur : VirtualBox>
-- Poste client : <Windows 11>, joint au domaine
+- Contrôleur de domaine : Windows Server 2022 sur hyperviseur : VirtualBox
+- Poste client : Windows 11, joint au domaine
 
 ## Ce qui est en place
 
@@ -41,7 +41,17 @@ L'aide de chaque script est disponible avec `Get-Help .\scripts\<script>.ps1 -Fu
 
 ## Ce que j'ai appris
 
+Ce labo m'a appris les bases de l'architecture d'AD DS, avant d'approfondir lors de ma formation à venir.
+Les scripts m'ont permis d'appréhender Powershell, dont l'ergonomie et la manipulation d'objet .Net m'ont agréablement surpris.
 
+## Ce que j'ai appris
+
+- **Structure d'un annuaire** : lecture et construction de DN, différence entre CN, SamAccountName et UPN, rôle des OU (GPO, délégation) face aux groupes (droits d'accès).
+- **PowerShell** : manipulation d'objets, `-Identity` pour cibler un objet et `-Filter` pour chercher, erreurs terminantes et `try/catch` avec `-ErrorAction Stop`.
+- **Scripts fiables** : mode simulation, journalisation, validation des données en entrée, code de sortie, scripts relançables sans effet de bord.
+- **Services de base** : résolution DNS interne et redirecteur vers l'extérieur, permissions de partage (SMB) et NTFS.
+
+Ce labo est une base : je compte l'approfondir pendant ma formation (modèle AGDLP, GPO supplémentaires).
 
 ## Prochaines étapes
 
